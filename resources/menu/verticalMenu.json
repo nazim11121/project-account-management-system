@@ -1,0 +1,183 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Pages"
+    },
+    {
+      "name": "Client",
+      "icon": "menu-icon tf-icons bx bx-user-circle",
+      "slug": "client",
+      "submenu": [
+        {
+          "url": "/admin/client-list",
+          "name": "List",
+          "slug": "client-list"
+        },
+        {
+          "url": "/admin/client-create",
+          "name": "Create",
+          "slug": "client-create"
+        }
+      ]  
+    },
+    {
+      "name": "Vendor",
+      "icon": "menu-icon tf-icons bx bx-cart-alt",
+      "slug": "vendor",
+      "submenu": [
+        {
+          "url": "/admin/vendor-list",
+          "name": "List",
+          "slug": "vendor-list"
+        },
+        {
+          "url": "/admin/vendor-create",
+          "name": "Create",
+          "slug": "vendor-create"
+        }
+      ]
+    },
+    {
+      "name": "Project",
+      "icon": "menu-icon tf-icons bx bx-analyse",
+      "slug": "project",
+      "submenu": [
+        {
+          "url": "/admin/project-list",
+          "name": "List",
+          "slug": "project-list"
+        },
+        {
+          "url": "/admin/project-create",
+          "name": "Create",
+          "slug": "project-create"
+        }
+      ]
+    },
+    {
+      "name": "Product Inventory",
+      "icon": "menu-icon tf-icons bx bx-archive-in",
+      "slug": "product",
+      "submenu": [
+        {
+          "url": "/admin/product-list",
+          "name": "List",
+          "slug": "product-list"
+        },
+        {
+          "url": "/admin/product-create",
+          "name": "Create",
+          "slug": "product-create"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx bx-bookmark-alt-plus",
+      "name": "Purchase Costing",
+      "slug": "purchase-costing",
+      "submenu": [
+        {
+          "url": "/admin/purchase-costing-list",
+          "name": "List",
+          "slug": "purchase-costing-list"
+        },
+        {
+          "url": "/admin/purchase-costing-create",
+          "name": "Create",
+          "slug": "purchase-costing-create"
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "account",
+      "submenu": [
+        {
+          "url": "/admin/account/cashbook",
+          "name": "Cashbook",
+          "slug": "account-cashbook"
+        },
+        {
+          "url": "/admin/account/ledger-search",
+          "name": "Ledger",
+          "slug": "account-ledger-search"
+        },
+        {
+          "url": "/admin/account/salary-list",
+          "name": "Salary",
+          "slug": "account-salary-list"
+        },
+        {
+          "url": "/admin/account/stationary-list",
+          "name": "Stationary",
+          "slug": "account-stationary-list"
+        },
+        {
+          "url": "/admin/account/office_expenses-list",
+          "name": "Office Expenses",
+          "slug": "account-office_expenses-list"
+        },
+        {
+          "url": "/admin/account/entertainment-list",
+          "name": "Entertainment",
+          "slug": "account-entertainment-list"
+        },
+        {
+          "url": "/admin/account/conveyance-list",
+          "name": "Conveyance",
+          "slug": "account-conveyance-list"
+        },
+        {
+          "url": "/admin/account/deposit-list",
+          "name": "Deposit(Cr)",
+          "slug": "account-profit-list"
+        },
+        {
+          "url": "/admin/account-bank-cash-list",
+          "name": "Bank/Cash Account",
+          "slug": "account-bank-cash-list"
+        },
+        {
+          "url": "/admin/account-income-head-list",
+          "name": "Income Head",
+          "slug": "account-income-head-list"
+        },
+        {
+          "url": "/admin/account-expense-head-list",
+          "name": "Expense Head",
+          "slug": "account-expense-head-list"
+        }
+      ]
+    },
+    {
+      "name": "Employee",
+      "icon": "menu-icon tf-icons bx bx-book",
+      "slug": "employee",
+      "submenu": [
+        {
+          "url": "/admin/employee-list",
+          "name": "List",
+          "slug": "employee-list"
+        },
+        {
+          "url": "/admin/employee-create",
+          "name": "Create",
+          "slug": "employee-create"
+        }
+      ]
+    },
+    {
+      "url": "/admin/reporting-search",
+      "name": "Reporting",
+      "icon": "menu-icon tf-icons bx bx-chart",
+      "slug": "reporting-search"
+    }
+  ]
+}
